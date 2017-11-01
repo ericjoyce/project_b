@@ -47,7 +47,11 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VHDL_FILE "../Project-B/Components/pc_reg.vhd"
+set_global_assignment -name VHDL_FILE "../Project-B/Components/pipeline registers/mem_wb.vhd"
+set_global_assignment -name VHDL_FILE "../Project-B/Components/pipeline registers/if_id.vhd"
+set_global_assignment -name VHDL_FILE "../Project-B/Components/pipeline registers/id_ex.vhd"
+set_global_assignment -name VHDL_FILE "../Project-B/Components/pipeline registers/ex_mem.vhd"
 set_global_assignment -name BDF_FILE ../project_a/quartus/project_a.bdf
 set_global_assignment -name BDF_FILE ../project_a/quartus/instructions.bdf
 set_global_assignment -name BDF_FILE ../project_a/quartus/instruction_control_alu.bdf
@@ -61,7 +65,6 @@ set_global_assignment -name VHDL_FILE ../project_a/quartus/instruction_control.v
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/sll_2.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/sign_extender_16_32.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/register_file.vhd
-set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/pc_reg.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/mux21_32bit.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/mux21_5bit.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/mux21_1bit.vhd
@@ -71,3 +74,8 @@ set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/dmem.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/and_2.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/ALU.vhd
 set_global_assignment -name VHDL_FILE ../project_a/projectA/Components/adder_32.vhd
+set_global_assignment -name BDF_FILE project_b.bdf
+set_global_assignment -name BDF_FILE instruction_pipe.bdf
+set_global_assignment -name BDF_FILE instruction_control_pipe.bdf
+set_global_assignment -name BDF_FILE instruction_control_alu_pipe.bdf
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

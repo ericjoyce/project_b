@@ -1,0 +1,107 @@
+/*
+WARNING: Do NOT edit the input and output ports in this file in a text
+editor if you plan to continue editing the block that represents it in
+the Block Editor! File corruption is VERY likely to occur.
+*/
+/*
+Copyright (C) 2016  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Intel and sold by Intel or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+*/
+(header "symbol" (version "1.2"))
+(symbol
+	(rect 16 16 344 208)
+	(text "instruction_pipe" (rect 5 0 100 19)(font "Intel Clear" (font_size 8)))
+	(text "inst" (rect 8 171 24 188)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "i_CLK" (rect 0 0 34 19)(font "Intel Clear" (font_size 8)))
+		(text "i_CLK" (rect 21 27 55 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "i_RST" (rect 0 0 35 19)(font "Intel Clear" (font_size 8)))
+		(text "i_RST" (rect 21 43 56 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "i_next_PC[31..0]" (rect 0 0 97 19)(font "Intel Clear" (font_size 8)))
+		(text "i_next_PC[31..0]" (rect 21 59 118 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 64)(pt 16 64)(line_width 3))
+	)
+	(port
+		(pt 328 32)
+		(output)
+		(text "o_jump_address[31..0]" (rect 0 0 138 19)(font "Intel Clear" (font_size 8)))
+		(text "o_jump_address[31..0]" (rect 169 27 307 46)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 32)(pt 312 32)(line_width 3))
+	)
+	(port
+		(pt 328 48)
+		(output)
+		(text "o_pc4[31..0]" (rect 0 0 75 19)(font "Intel Clear" (font_size 8)))
+		(text "o_pc4[31..0]" (rect 232 43 307 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 48)(pt 312 48)(line_width 3))
+	)
+	(port
+		(pt 328 64)
+		(output)
+		(text "o_instruction_31_0[31..0]" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_31_0[31..0]" (rect 154 59 307 78)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 64)(pt 312 64)(line_width 3))
+	)
+	(port
+		(pt 328 80)
+		(output)
+		(text "o_instruction_25_21[4..0]" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_25_21[4..0]" (rect 154 75 307 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 80)(pt 312 80)(line_width 3))
+	)
+	(port
+		(pt 328 96)
+		(output)
+		(text "o_instruction_20_16[4..0]" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_20_16[4..0]" (rect 154 91 307 110)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 96)(pt 312 96)(line_width 3))
+	)
+	(port
+		(pt 328 112)
+		(output)
+		(text "o_instruction_15_11[4..0]" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_15_11[4..0]" (rect 154 107 307 126)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 112)(pt 312 112)(line_width 3))
+	)
+	(port
+		(pt 328 128)
+		(output)
+		(text "o_instruction_SE_15_0[31..0]" (rect 0 0 175 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_SE_15_0[31..0]" (rect 132 123 307 142)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 128)(pt 312 128)(line_width 3))
+	)
+	(port
+		(pt 328 144)
+		(output)
+		(text "o_instruction_15_0[15..0]" (rect 0 0 153 19)(font "Intel Clear" (font_size 8)))
+		(text "o_instruction_15_0[15..0]" (rect 154 139 307 158)(font "Intel Clear" (font_size 8)))
+		(line (pt 328 144)(pt 312 144)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 312 176))
+	)
+)
