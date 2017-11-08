@@ -46,6 +46,13 @@ agreement for further details.
 		(line (pt 0 64)(pt 16 64)(line_width 3))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "pc_mux_sel" (rect 0 0 69 19)(font "Intel Clear" (font_size 8)))
+		(text "pc_mux_sel" (rect 21 75 90 94)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
 		(pt 328 32)
 		(output)
 		(text "o_jump_address[31..0]" (rect 0 0 138 19)(font "Intel Clear" (font_size 8)))
