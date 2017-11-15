@@ -1,4 +1,12 @@
-//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sll_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sll_2.vhd
+//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/modelsim/week1/mux31_32bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none {\\my.files.iastate.edu\Users\tbyacoub\Desktop\project_b\modelsim\week1\mux31_32bit.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux31_32bit
+-- Compiling architecture bhv of mux31_32bit
+
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sll_2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sll_2.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -89,6 +97,15 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity dmem
 -- Compiling architecture behavioral of dmem
 
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_1bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_1bit.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux21_1bit
+-- Compiling architecture mixed of mux21_1bit
+
 } {} {}} {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/mem_wb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/mem_wb.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
@@ -107,14 +124,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity and_2
 -- Compiling architecture mixed of and_2
 
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_1bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_1bit.vhd
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/projectA/Components/main_control.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/projectA/Components/main_control.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity mux21_1bit
--- Compiling architecture mixed of mux21_1bit
+-- Compiling entity main_control
+-- Compiling architecture mixed of main_control
 
 } {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/branch_comparator.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/branch_comparator.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -124,15 +141,6 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package NUMERIC_STD
 -- Compiling entity branch_comparator
 -- Compiling architecture mixed of branch_comparator
-
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/projectA/Components/main_control.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/projectA/Components/main_control.vhd
-Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity main_control
--- Compiling architecture mixed of main_control
 
 } {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/modelsim/jump_address.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/project_a/modelsim/jump_address.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -151,14 +159,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity const_4
 -- Compiling architecture mixed of const_4
 
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_5bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_5bit.vhd
+} {} {}} {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/ex_mem.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/ex_mem.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity mux21_5bit
--- Compiling architecture mixed of mux21_5bit
+-- Compiling entity ex_mem
+-- Compiling architecture mixed of ex_mem
 
 } {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pc_reg.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pc_reg.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -169,22 +177,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity PC_reg
 -- Compiling architecture mixed of PC_reg
 
-} {} {}} {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/ex_mem.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/ex_mem.vhd}
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_5bit.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/mux21_5bit.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity ex_mem
--- Compiling architecture mixed of ex_mem
-
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_pipe.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_pipe.vhd
-Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity instruction_control_pipe
--- Compiling architecture bdf_type of instruction_control_pipe
+-- Compiling entity mux21_5bit
+-- Compiling architecture mixed of mux21_5bit
 
 } {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sign_extender_16_32.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/sign_extender_16_32.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -195,30 +195,13 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity sign_extender_16_32
 -- Compiling architecture mixed of sign_extender_16_32
 
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_alu_pipe.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_alu_pipe.vhd
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_pipe.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/instruction_control_pipe.vhd
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity instruction_control_alu_pipe
--- Compiling architecture bdf_type of instruction_control_alu_pipe
-
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/project_b.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/quartus/project_b.vhd
-Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity project_b
--- Compiling architecture bdf_type of project_b
-
-} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/ALU.vhd
-Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity ALU
--- Compiling architecture mixed of ALU
+-- Compiling entity instruction_control_pipe
+-- Compiling architecture bdf_type of instruction_control_pipe
 
 } {} {}} {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/pipeline_register_template.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/pipeline registers/pipeline_register_template.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -228,5 +211,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package NUMERIC_STD
 -- Compiling entity pipeline_register_template
 -- Compiling architecture mixed of pipeline_register_template
+
+} {} {}} //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/ALU.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none //my.files.iastate.edu/Users/tbyacoub/Desktop/project_b/Project-B/Components/ALU.vhd
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU
+-- Compiling architecture mixed of ALU
 
 } {} {}}

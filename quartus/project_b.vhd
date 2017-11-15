@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition"
--- CREATED		"Wed Nov 08 13:59:07 2017"
+-- CREATED		"Wed Nov 15 12:34:01 2017"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -30,8 +30,6 @@ ENTITY project_b IS
 		wb_reg_dest :  OUT  STD_LOGIC;
 		alu_zero :  OUT  STD_LOGIC;
 		ex_branch :  OUT  STD_LOGIC;
-		ex_rs_sel :  OUT  STD_LOGIC_VECTOR(4 DOWNTO 0);
-		ex_rt_sel :  OUT  STD_LOGIC_VECTOR(4 DOWNTO 0);
 		wb_instruction :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		wb_pc_plus_4 :  OUT  STD_LOGIC_VECTOR(31 DOWNTO 0)
 	);
@@ -72,8 +70,6 @@ COMPONENT instruction_control_alu_pipe
 		 mem_reg_write : OUT STD_LOGIC;
 		 alu_zero : OUT STD_LOGIC;
 		 ex_branch : OUT STD_LOGIC;
-		 ex_rs_sel : OUT STD_LOGIC_VECTOR(4 DOWNTO 0);
-		 ex_rt_sel : OUT STD_LOGIC_VECTOR(4 DOWNTO 0);
 		 mem_ALU_out : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
 		 mem_instruction : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
 		 mem_pc_plus_4 : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
@@ -152,7 +148,7 @@ PORT MAP(i_sel => SYNTHESIZED_WIRE_3,
 
 
 
-b2v_inst2 : instruction_control_alu_pipe
+b2v_inst6 : instruction_control_alu_pipe
 PORT MAP(i_CLK => i_CLK,
 		 i_RST => i_RST,
 		 w_en => SYNTHESIZED_WIRE_6,
@@ -164,8 +160,6 @@ PORT MAP(i_CLK => i_CLK,
 		 mem_reg_write => SYNTHESIZED_WIRE_13,
 		 alu_zero => alu_zero,
 		 ex_branch => ex_branch,
-		 ex_rs_sel => ex_rs_sel,
-		 ex_rt_sel => ex_rt_sel,
 		 mem_ALU_out => mem_alu_out,
 		 mem_instruction => SYNTHESIZED_WIRE_15,
 		 mem_pc_plus_4 => SYNTHESIZED_WIRE_16,
