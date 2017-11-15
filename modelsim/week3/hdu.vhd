@@ -1,0 +1,63 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity hdu is
+  port( i_CLK : in std_logic;
+	i_jump : in std_logic;
+	i_branch : in std_logic;
+	i_ex_rs_sel : in std_logic_vector(4 downto 0);
+  	i_ex_rt_sel : in std_logic_vector(4 downto 0);
+	i_id_rs_sel : in std_logic_vector(4 downto 0);
+	i_id_rt_sel : in std_logic_vector(4 downto 0);
+	i_ex_write_reg_sel : in std_logic_vector(4 downto 0);
+	i_ex_mem_write : in std_logic;
+	o_if_id_flush : out std_logic;
+	o_id_ex_flush : out std_logic;
+	o_if_id_stall : out std_logic;
+	o_pc_stall : out std_logic
+	);
+ end hdu;
+
+architecture mixed of hdu is 
+
+begin
+
+
+
+process(i_id_rt_sel, i_id_rs_sel, i_ex_rt_sel, i_ex_rs_sel, i_jump, i_branch, i_CLK)
+
+begin
+
+	o_if_id_flush <= '0';
+	o_id_ex_flush <= '0';
+	o_if_id_stall <= '0';
+	o_pc_stall <= '0';
+
+	if((i_jump = '1') OR (i_branch = '1')) then
+		
+		o_if_id_flush <= '1';
+
+	end if;
+
+	if((i_ex_mem_write = '0') AND ((i_ex_rt_sel = i_id_rs_sel) OR (i_ex_rt_sel = i_id_rt_sel))) then
+
+		o_pc_stall <= '1';
+		o_if_id_stall <= '1';
+		o_id_ex_flush <= '1';
+
+	end if;
+
+	if((i_branch = '0') AND ((i_ex_write_reg_sel = i_id_rs_sel) OR (i_ex_write_reg_sel = i_id_rt_sel))) then
+
+		o_pc_stall <= '1';
+		o_if_id_stall <= '1';
+		o_id_ex_flush <= '1';
+
+	end if;
+
+	
+
+end process;
+
+end mixed;
