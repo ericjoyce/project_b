@@ -298,46 +298,65 @@ R52
 R12
 R13
 Efu
-w1510767162
+Z53 w1510767533
 R1
 R2
 R3
 R4
-8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd
-F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd
+Z54 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd
+Z55 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd
 l0
 L5
 VUSocShZW]SM3JS2ZSZ6B11
 !s100 3aAPOAW;VTAP_LM>gOZh01
 R7
 32
-!s110 1510767165
+Z56 !s110 1510767545
 !i10b 1
-!s108 1510767165.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd|
-!s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd|
+Z57 !s108 1510767545.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd|
+Z59 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd|
+!i113 0
+R12
+R13
+Amixed
+R1
+R2
+R3
+DEx4 work 2 fu 0 22 USocShZW]SM3JS2ZSZ6B11
+l22
+L18
+V_7Cjz]f^A?J4j0VTQ]JNd0
+!s100 nINEEm3>f`RUKA@JPlQgN1
+R7
+32
+R56
+!i10b 1
+R57
+R58
+R59
 !i113 0
 R12
 R13
 Eid_ex
-Z53 w1490244946
+Z60 w1490244946
 R1
 R2
 R3
 R4
-Z54 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd
-Z55 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd
+Z61 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd
+Z62 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd
 l0
 L5
 Vni>i117HoQ]fMGP]TP7W>1
 !s100 TXc;CFDzE`YNjY96L8Y:G2
 R7
 32
-Z56 !s110 1510763406
+Z63 !s110 1510763406
 !i10b 1
-Z57 !s108 1510763406.000000
-Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd|
-Z59 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd|
+Z64 !s108 1510763406.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd|
+Z66 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/id_ex.vhd|
 !i113 0
 R12
 R13
@@ -352,33 +371,33 @@ V[FiLl=ZHKUZSW]zLh4Qgf1
 !s100 `H<9W@ci8E7OX3bE<OiIR0
 R7
 32
-R56
+R63
 !i10b 1
-R57
-R58
-R59
+R64
+R65
+R66
 !i113 0
 R12
 R13
 Eif_id
-Z60 w1490244948
+Z67 w1490244948
 R1
 R2
 R3
 R4
-Z61 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd
-Z62 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd
+Z68 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd
+Z69 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd
 l0
 L5
 V4cAzIQ10aO[5F@D;gUZJh3
 !s100 Eo9j@Wm2C<bXW>a3F`1SI1
 R7
 32
-R56
+R63
 !i10b 1
-R57
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd|
-Z64 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd|
+R64
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd|
+Z71 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd|
 !i113 0
 R12
 R13
@@ -393,34 +412,34 @@ V56zkY1970Glk>7>_fio2=2
 !s100 MBH3bkLW>FTQJV7G3KiSc0
 R7
 32
-R56
-!i10b 1
-R57
 R63
+!i10b 1
 R64
+R70
+R71
 !i113 0
 R12
 R13
 Eimem
-Z65 w1488837948
+Z72 w1488837948
 R40
 R41
 R2
 R3
 R4
-Z66 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd
-Z67 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd
+Z73 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd
+Z74 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd
 l0
 L24
 VjXhbBJffKcnG98J4k;oNl2
 !s100 ;:C@ekial1:hh0oimdP3>3
 R7
 32
-Z68 !s110 1510763407
+Z75 !s110 1510763407
 !i10b 1
-R57
-Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd|
-Z70 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd|
+R64
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd|
+Z77 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/imem.vhd|
 !i113 0
 R12
 R13
@@ -436,32 +455,32 @@ Vm?YB5bKRQ12OK21KHa^^S2
 !s100 6UBLDD7nKFLM30^2gU3ok2
 R7
 32
-R68
+R75
 !i10b 1
-R57
-R69
-R70
+R64
+R76
+R77
 !i113 0
 R12
 R13
 Einstruction_control
-Z71 w1508958500
+Z78 w1508958500
 R2
 R3
 R32
-Z72 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd
-Z73 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd
+Z79 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd
+Z80 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd
 l0
 L25
 Vo=ISnOmG_]N50d:<L[WnJ1
 !s100 k?ol5za8f2[Uk=]B252NW2
 R7
 32
-Z74 !s110 1509556174
+Z81 !s110 1509556174
 !i10b 1
-Z75 !s108 1509556174.000000
-Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd|
-Z77 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd|
+Z82 !s108 1509556174.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd|
+Z84 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control.vhd|
 !i113 0
 R12
 R13
@@ -475,32 +494,32 @@ V56bncN3FSHV[hCfK70AaD0
 !s100 zk4N6hPVdCk_hYUgUe43i1
 R7
 32
-R74
+R81
 !i10b 1
-R75
-R76
-R77
+R82
+R83
+R84
 !i113 0
 R12
 R13
 Einstruction_control_alu
-R71
+R78
 R2
 R3
 R32
-Z78 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd
-Z79 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd
+Z85 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd
+Z86 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd
 l0
 L25
 V=_2]P?`VmoWUD8NFWkOD:1
 !s100 >O`fCB]oD;5SH4VW@U^PG0
 R7
 32
-R74
+R81
 !i10b 1
-R75
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd|
-Z81 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd|
+R82
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd|
+Z88 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instruction_control_alu.vhd|
 !i113 0
 R12
 R13
@@ -514,32 +533,32 @@ V=?nhUW`BE[Rzfmh@UbEc93
 !s100 >V6Z@G0]_OdUSk_Y0hQ=50
 R7
 32
-R74
-!i10b 1
-R75
-R80
 R81
+!i10b 1
+R82
+R87
+R88
 !i113 0
 R12
 R13
 Einstructions
-R71
+R78
 R2
 R3
 R32
-Z82 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd
-Z83 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd
+Z89 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd
+Z90 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd
 l0
 L25
 VzjeTNH]PPDJLjN]DDGFOF0
 !s100 SX;kk^njbcAMiVPD4hX<<0
 R7
 32
-R74
+R81
 !i10b 1
-R75
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd|
-Z85 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd|
+R82
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd|
+Z92 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/quartus/instructions.vhd|
 !i113 0
 R12
 R13
@@ -553,11 +572,11 @@ VZzk@Rg1>0n462e`W2ZEBP0
 !s100 S58HiF;UDm<6^j79GAP5S1
 R7
 32
-R74
+R81
 !i10b 1
-R75
-R84
-R85
+R82
+R91
+R92
 !i113 0
 R12
 R13
@@ -566,8 +585,8 @@ R31
 R2
 R3
 R32
-Z86 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd
-Z87 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd
+Z93 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd
+Z94 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd
 l0
 L4
 Vz`Q;19?VM@eDQoB?DVL:40
@@ -577,8 +596,8 @@ R7
 R35
 !i10b 1
 R36
-Z88 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd|
-Z89 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd|
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd|
+Z96 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/project_a/modelsim/jump_address.vhd|
 !i113 0
 R12
 R13
@@ -595,30 +614,30 @@ R7
 R35
 !i10b 1
 R36
-R88
-R89
+R95
+R96
 !i113 0
 R12
 R13
 Emain_control
-Z90 w1490063108
+Z97 w1490063108
 R1
 R2
 R3
 R4
-Z91 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd
-Z92 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd
+Z98 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd
+Z99 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd
 l0
 L5
 Vz8;kVNm:XoMbnJdfI8c9]0
 !s100 i^g9aQzd4?KVgPb7ZUn>23
 R7
 32
-Z93 !s110 1510763956
+Z100 !s110 1510763956
 !i10b 1
-Z94 !s108 1510763955.000000
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd|
-Z96 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd|
+Z101 !s108 1510763955.000000
+Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd|
+Z103 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd|
 !i113 0
 R12
 R13
@@ -633,33 +652,33 @@ VO;H:2@7PDdmQKkdjCXgP]2
 !s100 =?98eiYACQWM=RA1HcYEZ0
 R7
 32
-R93
+R100
 !i10b 1
-R94
-R95
-R96
+R101
+R102
+R103
 !i113 0
 R12
 R13
 Emem_wb
-Z97 w1490652230
+Z104 w1490652230
 R1
 R2
 R3
 R4
-Z98 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd
-Z99 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd
+Z105 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd
+Z106 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd
 l0
 L5
 VnCU:lDdH]^S@0lmVPTAfI1
 !s100 41QfeRWiW:7f9G@=F3?>10
 R7
 32
-Z100 !s110 1510763408
+Z107 !s110 1510763408
 !i10b 1
-Z101 !s108 1510763408.000000
-Z102 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd|
-Z103 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd|
+Z108 !s108 1510763408.000000
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd|
+Z110 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mem_wb.vhd|
 !i113 0
 R12
 R13
@@ -674,33 +693,33 @@ V[ggMPUWfhmMXH0GdPMNi;2
 !s100 AUjIHb8S;^ZRg_K4mMQBg3
 R7
 32
-R100
+R107
 !i10b 1
-R101
-R102
-R103
+R108
+R109
+R110
 !i113 0
 R12
 R13
 Emux21_1bit
-Z104 w1489019794
+Z111 w1489019794
 R1
 R2
 R3
 R4
-Z105 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd
-Z106 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd
+Z112 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd
+Z113 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd
 l0
 L5
 V5ad@XP^_T>A>>_lTei:zI3
 !s100 SIHe3]Q60iOJ5h=e5=^Dc0
 R7
 32
-R100
+R107
 !i10b 1
-R101
-Z107 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd|
-Z108 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd|
+R108
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd|
+Z115 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd|
 !i113 0
 R12
 R13
@@ -715,33 +734,33 @@ V@W`aza?EkYE4NmOF0n^6G3
 !s100 Q1ING><NR6emP3?XbAW[I1
 R7
 32
-R100
-!i10b 1
-R101
 R107
+!i10b 1
 R108
+R114
+R115
 !i113 0
 R12
 R13
 Emux21_32bit
-Z109 w1489019522
+Z116 w1489019522
 R1
 R2
 R3
 R4
-Z110 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd
-Z111 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd
+Z117 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd
+Z118 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd
 l0
 L5
 Vd9dSQQWe_GcfQ1:C8b<WQ3
 !s100 gMWSROBmKcgSLaeGGchYQ1
 R7
 32
-Z112 !s110 1510763409
+Z119 !s110 1510763409
 !i10b 1
-Z113 !s108 1510763409.000000
-Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd|
-Z115 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd|
+Z120 !s108 1510763409.000000
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd|
+Z122 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd|
 !i113 0
 R12
 R13
@@ -756,33 +775,33 @@ V<H<k3E0m2YM<R:4j`K>MO0
 !s100 35lKhO<@n09CbU14>OUjb1
 R7
 32
-R112
+R119
 !i10b 1
-R113
-R114
-R115
+R120
+R121
+R122
 !i113 0
 R12
 R13
 Emux21_5bit
-Z116 w1489019768
+Z123 w1489019768
 R1
 R2
 R3
 R4
-Z117 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd
-Z118 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd
+Z124 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd
+Z125 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd
 l0
 L5
 V?alb?N<RzYheEJOH4OhoE1
 !s100 3Ke0CNONJ:gj14j=ck<Z?3
 R7
 32
-R100
+R107
 !i10b 1
-R101
-Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd|
-Z120 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd|
+R108
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd|
+Z127 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd|
 !i113 0
 R12
 R13
@@ -797,33 +816,33 @@ VKih<fU?je7_ga?moDPmQn2
 !s100 ZCiZ4l:7ikI<3HzVb[cmM0
 R7
 32
-R100
+R107
 !i10b 1
-R101
-R119
-R120
+R108
+R126
+R127
 !i113 0
 R12
 R13
 Epc_reg
-Z121 w1490651764
+Z128 w1490651764
 R1
 R2
 R3
 R4
-Z122 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd
-Z123 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd
+Z129 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd
+Z130 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd
 l0
 L5
 Vg6GJ<RC:E2dNI7Hl>:COR1
 !s100 <8a@gzNJ6O7T2D@=m0ccP0
 R7
 32
-R112
+R119
 !i10b 1
-R113
-Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd|
-Z125 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd|
+R120
+Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd|
+Z132 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd|
 !i113 0
 R12
 R13
@@ -838,33 +857,33 @@ Vj8NzVd9=`BT@IgF:E;WWT1
 !s100 3PU]IIPEL^18Zn[UUW]f72
 R7
 32
-R112
+R119
 !i10b 1
-R113
-R124
-R125
+R120
+R131
+R132
 !i113 0
 R12
 R13
 Eregister_file
-Z126 w1490140326
+Z133 w1490140326
 R1
 R2
 R3
 R4
-Z127 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd
-Z128 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd
+Z134 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd
+Z135 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd
 l0
 L5
 VOV4<M?_bVai1H3P^2ek7B3
 !s100 0;6l8OR7N:fQ8?E^89Gj30
 R7
 32
-R112
+R119
 !i10b 1
-R113
-Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd|
-Z130 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd|
+R120
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd|
+Z137 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd|
 !i113 0
 R12
 R13
@@ -879,33 +898,33 @@ V<U`<9iMaJaEg1O1J@CP<c3
 !s100 a`d=PG[>:QXdoV:AG2L1e0
 R7
 32
-R112
+R119
 !i10b 1
-R113
-R129
-R130
+R120
+R136
+R137
 !i113 0
 R12
 R13
 Esign_extender_16_32
-Z131 w1488835800
+Z138 w1488835800
 R1
 R2
 R3
 R4
-Z132 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd
-Z133 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd
+Z139 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd
+Z140 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd
 l0
 L5
 V[i9oH0;lk]ZoBPS:<349D2
 !s100 fG?LOX^^lH4;UE9fMB]Z^2
 R7
 32
-Z134 !s110 1510763410
+Z141 !s110 1510763410
 !i10b 1
-Z135 !s108 1510763410.000000
-Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd|
-Z137 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd|
+Z142 !s108 1510763410.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd|
+Z144 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd|
 !i113 0
 R12
 R13
@@ -920,22 +939,22 @@ VFZPPX5MQTlEI]Pa9c=nc;0
 !s100 @@jWTG6SS0InUNlbG;c2R3
 R7
 32
-R134
+R141
 !i10b 1
-R135
-R136
-R137
+R142
+R143
+R144
 !i113 0
 R12
 R13
 Esll_2
-Z138 w1488837096
+Z145 w1488837096
 R1
 R2
 R3
 R4
-Z139 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd
-Z140 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd
+Z146 8//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd
+Z147 F//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd
 l0
 L6
 VcE08ijZ=8FTSPE=VX_@Zc3
@@ -945,8 +964,8 @@ R7
 R8
 !i10b 1
 R9
-Z141 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd|
-Z142 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd|
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd|
+Z149 !s107 //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd|
 !i113 0
 R12
 R13
@@ -964,8 +983,8 @@ R7
 R8
 !i10b 1
 R9
-R141
-R142
+R148
+R149
 !i113 0
 R12
 R13

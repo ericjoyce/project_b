@@ -27,29 +27,29 @@ process(i_wb_reg_write, i_ex_reg_write, i_ex_rs_sel, i_ex_rt_sel, i_wb_write_reg
 
 begin
 
--- pg 310 (336 actual)
-if((i_ex_reg_write = '1') AND (i_ex_write_reg_sel /= "00000") AND (i_ex_write_reg_sel = i_ex_rs_sel)) then
+	-- pg 310 (336 actual)
+	if((i_ex_reg_write = '1') AND (i_ex_write_reg_sel /= "00000") AND (i_ex_write_reg_sel = i_ex_rs_sel)) then
 
-	o_forward_a <= "10";
+		o_forward_a <= "10";
 
-else if((i_ex_reg_write = '1') AND (i_ex_write_reg_sel /= "00000") AND (i_ex_write_reg_sel = i_ex_rt_sel)) then
+	elsif((i_ex_reg_write = '1') AND (i_ex_write_reg_sel /= "00000") AND (i_ex_write_reg_sel = i_ex_rt_sel)) then
 
-	o_forward_b <= "10";
+		o_forward_b <= "10";
 
-else if((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rs_sel)) then
+	elsif((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rs_sel)) then
 
-	o_forward_a <= "01";
+		o_forward_a <= "01";
 
-else if((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rt_sel)) then
+	elsif((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rt_sel)) then
 
-	o_forward_b <= "01";
+		o_forward_b <= "01";
 
-else
+	else
 
-	o_forward_a <= "00";
-	o_forward_b <= "00";
+		o_forward_a <= "00";
+		o_forward_b <= "00";
 
-end if;
+	end if;
 
 end process;
 
