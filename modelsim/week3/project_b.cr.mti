@@ -44,6 +44,15 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity imem
 -- Compiling architecture behavioral of imem
 
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/hdu.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/hdu.vhd}
+Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity hdu
+-- Compiling architecture mixed of hdu
+
 } {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sign_extender_16_32.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
@@ -81,29 +90,7 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity dmem
 -- Compiling architecture behavioral of dmem
 
-} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd}
-Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity fu
--- Compiling architecture mixed of main_control
--- Loading entity main_control
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(26): (vcom-1136) Unknown identifier "i_CLK".
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(26): Expression is not a signal.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): (vcom-1136) Unknown identifier "i_ex_reg_write".
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): (vcom-1136) Unknown identifier "i_ex_write_reg_sel".
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'and'.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): (vcom-1136) Unknown identifier "i_ex_write_reg_sel".
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): (vcom-1136) Unknown identifier "i_ex_rs_sel".
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): ** Error: (vcom-1590) Bad expression in left operand of infix expression 'and'.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): ** Error: (vcom-1590) Bad expression in right operand of infix expression 'and'.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(31): near "then": (vcom-1576) expecting ')'.
-** Error: //my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/fu.vhd(56): VHDL Compiler exiting
-
-} {10.0 22.0} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd}
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/if_id.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -112,14 +99,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity if_id
 -- Compiling architecture mixed of if_id
 
-} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd}
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity register_file
--- Compiling architecture mixed of register_file
+-- Compiling entity sll_2
+-- Compiling architecture mixed of sll_2
 
 } {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_1bit.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -130,14 +117,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity mux21_1bit
 -- Compiling architecture mixed of mux21_1bit
 
-} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/sll_2.vhd}
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/register_file.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity sll_2
--- Compiling architecture mixed of sll_2
+-- Compiling entity register_file
+-- Compiling architecture mixed of register_file
 
 } {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/main_control.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -157,14 +144,14 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity mem_wb
 -- Compiling architecture mixed of mem_wb
 
-} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd}
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity PC_reg
--- Compiling architecture mixed of PC_reg
+-- Compiling entity mux21_5bit
+-- Compiling architecture mixed of mux21_5bit
 
 } {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_32bit.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
@@ -175,13 +162,13 @@ Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Compiling entity mux21_32bit
 -- Compiling architecture mixed of mux21_32bit
 
-} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/mux21_5bit.vhd}
+} {} {}} {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {//my.files.iastate.edu/Users/ejoyce/Documents/CprE 381/Labs/project_b/modelsim/week3/pc_reg.vhd}
 Model Technology ModelSim SE-64 vcom 10.5b Compiler 2016.05 May 21 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity mux21_5bit
--- Compiling architecture mixed of mux21_5bit
+-- Compiling entity PC_reg
+-- Compiling architecture mixed of PC_reg
 
 } {} {}}

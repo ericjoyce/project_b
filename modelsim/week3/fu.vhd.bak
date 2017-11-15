@@ -17,8 +17,6 @@ entity fu is
 
 architecture mixed of fu is 
 
--- todo add anything?
-
 begin
 
 
@@ -26,6 +24,9 @@ begin
 process(i_wb_reg_write, i_ex_reg_write, i_ex_rs_sel, i_ex_rt_sel, i_wb_write_reg_sel, i_ex_write_reg_sel, i_CLK)
 
 begin
+
+	o_forward_a <= "00"
+	o_forward_b <= "00"
 
 	-- pg 310 (336 actual)
 	if((i_ex_reg_write = '1') AND (i_ex_write_reg_sel /= "00000") AND (i_ex_write_reg_sel = i_ex_rs_sel)) then
