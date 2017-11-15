@@ -15,7 +15,7 @@
 
 -- PROGRAM		"Quartus Prime"
 -- VERSION		"Version 16.1.0 Build 196 10/24/2016 SJ Standard Edition"
--- CREATED		"Wed Nov 08 13:53:36 2017"
+-- CREATED		"Wed Nov 15 12:47:27 2017"
 
 LIBRARY ieee;
 USE ieee.std_logic_1164.all; 
@@ -28,6 +28,9 @@ ENTITY instruction_pipe IS
 		i_CLK :  IN  STD_LOGIC;
 		i_RST :  IN  STD_LOGIC;
 		pc_mux_sel :  IN  STD_LOGIC;
+		pc_reg_stall :  IN  STD_LOGIC;
+		id_flush :  IN  STD_LOGIC;
+		id_stall :  IN  STD_LOGIC;
 		i_next_PC :  IN  STD_LOGIC_VECTOR(31 DOWNTO 0);
 		o_instruction_15_0 :  OUT  STD_LOGIC_VECTOR(15 DOWNTO 0);
 		o_instruction_15_11 :  OUT  STD_LOGIC_VECTOR(4 DOWNTO 0);
@@ -117,43 +120,43 @@ END COMPONENT;
 
 SIGNAL	pc :  STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL	q :  STD_LOGIC_VECTOR(31 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_13 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_10 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_14 :  STD_LOGIC;
-SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC_VECTOR(0 TO 3);
-SIGNAL	SYNTHESIZED_WIRE_6 :  STD_LOGIC_VECTOR(0 TO 31);
+SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_3 :  STD_LOGIC;
+SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC_VECTOR(0 TO 3);
+SIGNAL	SYNTHESIZED_WIRE_5 :  STD_LOGIC_VECTOR(0 TO 31);
+SIGNAL	SYNTHESIZED_WIRE_6 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_7 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
 SIGNAL	SYNTHESIZED_WIRE_8 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
-SIGNAL	SYNTHESIZED_WIRE_11 :  STD_LOGIC_VECTOR(31 DOWNTO 0);
 
 
 BEGIN 
-o_pc4 <= SYNTHESIZED_WIRE_8;
-SYNTHESIZED_WIRE_14 <= '0';
-SYNTHESIZED_WIRE_5 <= "1111";
-SYNTHESIZED_WIRE_6 <= "00000000000000000000000000000000";
+o_pc4 <= SYNTHESIZED_WIRE_7;
+SYNTHESIZED_WIRE_3 <= '0';
+SYNTHESIZED_WIRE_4 <= "1111";
+SYNTHESIZED_WIRE_5 <= "00000000000000000000000000000000";
 
 
 
 b2v_inst : mux21_32bit
 PORT MAP(i_sel => pc_mux_sel,
-		 i_0 => SYNTHESIZED_WIRE_13,
+		 i_0 => SYNTHESIZED_WIRE_10,
 		 i_1 => i_next_PC,
-		 o_mux => SYNTHESIZED_WIRE_3);
+		 o_mux => SYNTHESIZED_WIRE_2);
 
 
 b2v_inst1 : adder_32
 PORT MAP(i_A => SYNTHESIZED_WIRE_1,
 		 i_B => pc,
-		 o_F => SYNTHESIZED_WIRE_13);
+		 o_F => SYNTHESIZED_WIRE_10);
 
 
 b2v_inst10 : pc_reg
 PORT MAP(CLK => i_CLK,
 		 reset => i_RST,
-		 stall => SYNTHESIZED_WIRE_14,
-		 i_next_PC => SYNTHESIZED_WIRE_3,
+		 stall => pc_reg_stall,
+		 i_next_PC => SYNTHESIZED_WIRE_2,
 		 o_PC => pc);
 
 
@@ -163,11 +166,11 @@ GENERIC MAP(depth_exp_of_2 => 10,
 			mif_filename => "imem.mif"
 			)
 PORT MAP(clock => i_CLK,
-		 wren => SYNTHESIZED_WIRE_14,
+		 wren => SYNTHESIZED_WIRE_3,
 		 address => pc(11 DOWNTO 2),
-		 byteena => SYNTHESIZED_WIRE_5,
-		 data => SYNTHESIZED_WIRE_6,
-		 q => SYNTHESIZED_WIRE_11);
+		 byteena => SYNTHESIZED_WIRE_4,
+		 data => SYNTHESIZED_WIRE_5,
+		 q => SYNTHESIZED_WIRE_8);
 
 
 b2v_inst3 : const_4
@@ -176,14 +179,14 @@ PORT MAP(		 o_F => SYNTHESIZED_WIRE_1);
 
 b2v_inst4 : sll_2
 PORT MAP(i_to_shift => q,
-		 o_shifted => SYNTHESIZED_WIRE_7);
+		 o_shifted => SYNTHESIZED_WIRE_6);
 
 
 
 
 b2v_inst7 : jump_address
-PORT MAP(i_inst => SYNTHESIZED_WIRE_7,
-		 i_pc4 => SYNTHESIZED_WIRE_8,
+PORT MAP(i_inst => SYNTHESIZED_WIRE_6,
+		 i_pc4 => SYNTHESIZED_WIRE_7,
 		 o_JA => o_jump_address);
 
 
@@ -194,13 +197,13 @@ PORT MAP(i_to_extend => q(15 DOWNTO 0),
 
 b2v_inst9 : if_id
 PORT MAP(CLK => i_CLK,
-		 id_flush => SYNTHESIZED_WIRE_14,
-		 id_stall => SYNTHESIZED_WIRE_14,
+		 id_flush => id_flush,
+		 id_stall => id_stall,
 		 ifid_reset => i_RST,
-		 if_instruction => SYNTHESIZED_WIRE_11,
-		 if_pc_plus_4 => SYNTHESIZED_WIRE_13,
+		 if_instruction => SYNTHESIZED_WIRE_8,
+		 if_pc_plus_4 => SYNTHESIZED_WIRE_10,
 		 id_instruction => q,
-		 id_pc_plus_4 => SYNTHESIZED_WIRE_8);
+		 id_pc_plus_4 => SYNTHESIZED_WIRE_7);
 
 o_instruction_15_0(15 DOWNTO 0) <= q(15 DOWNTO 0);
 o_instruction_15_11(4 DOWNTO 0) <= q(15 DOWNTO 11);
