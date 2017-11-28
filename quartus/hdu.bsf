@@ -41,8 +41,8 @@ agreement for further details.
 	(port
 		(pt 0 64)
 		(input)
-		(text "i_branch" (rect 0 0 34 12)(font "Arial" ))
-		(text "i_branch" (rect 21 59 55 71)(font "Arial" ))
+		(text "i_branch_condition" (rect 0 0 73 12)(font "Arial" ))
+		(text "i_branch_condition" (rect 21 59 94 71)(font "Arial" ))
 		(line (pt 0 64)(pt 16 64)(line_width 1))
 	)
 	(port
@@ -86,6 +86,13 @@ agreement for further details.
 		(text "i_ex_mem_write" (rect 0 0 67 12)(font "Arial" ))
 		(text "i_ex_mem_write" (rect 21 155 88 167)(font "Arial" ))
 		(line (pt 0 160)(pt 16 160)(line_width 1))
+	)
+	(port
+		(pt 0 176)
+		(input)
+		(text "i_branch" (rect 0 0 34 12)(font "Arial" ))
+		(text "i_branch" (rect 21 171 55 183)(font "Arial" ))
+		(line (pt 0 176)(pt 16 176)(line_width 1))
 	)
 	(port
 		(pt 256 32)

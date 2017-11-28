@@ -35,26 +35,28 @@ begin
 	o_forward_comp_rt <= '0';
 
 	-- pg 310 (336 actual)
+
+	if((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rs_sel)) then
+
+		o_forward_a <= "01";
+
+	end if;
+
+	if((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rt_sel)) then
+
+		o_forward_b <= "01";
+
+	end if;
+
 	if((i_mem_reg_write = '1') AND (i_mem_write_reg_sel /= "00000") AND (i_mem_write_reg_sel = i_ex_rs_sel)) then
 
 		o_forward_a <= "10";
 
-	elsif((i_mem_reg_write = '1') AND (i_mem_write_reg_sel /= "00000") AND (i_mem_write_reg_sel = i_ex_rt_sel)) then
+	end if;
+
+	if((i_mem_reg_write = '1') AND (i_mem_write_reg_sel /= "00000") AND (i_mem_write_reg_sel = i_ex_rt_sel)) then
 
 		o_forward_b <= "10";
-
-	elsif((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rs_sel)) then
-
-		o_forward_a <= "01";
-
-	elsif((i_wb_reg_write = '1') AND (i_wb_write_reg_sel /= "00000") AND (i_wb_write_reg_sel = i_ex_rt_sel)) then
-
-		o_forward_b <= "01";
-
-	else
-
-		o_forward_a <= "00";
-		o_forward_b <= "00";
 
 	end if;
 
@@ -64,7 +66,7 @@ begin
 
 		o_forward_comp_rs <= '1';
 
-	elsif((i_mem_reg_write = '1') AND (i_mem_write_reg_sel /= "00000") AND (i_mem_write_reg_sel = i_ex_rt_sel)) then
+	elsif((i_mem_reg_write = '1') AND (i_mem_write_reg_sel /= "00000") AND (i_mem_write_reg_sel = i_id_rt_sel)) then
 
 		o_forward_comp_rt <= '1';
 

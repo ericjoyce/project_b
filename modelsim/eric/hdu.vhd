@@ -49,7 +49,7 @@ begin
 
 	end if;
 
-	if((i_branch = '1') AND ((i_ex_write_reg_sel = i_id_rs_sel) OR (i_ex_write_reg_sel = i_id_rt_sel))) then
+	if((i_branch = '1') AND (i_branch_condition = '0') AND ((i_ex_write_reg_sel = i_id_rs_sel) OR (i_ex_write_reg_sel = i_id_rt_sel))) then
 
 		o_pc_stall <= '1';
 		o_if_id_stall <= '1';
